@@ -1,0 +1,3 @@
+'''
+    No sumstore views defined
+'''

@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: UpdateInfo
+Version: 0.1.3
+Summary: Classes for making the yum updateinfo.xml.
+Home-page: http://www.scientificlinux.org/maillists/
+Author: Pat Riehecky
+Author-email: riehecky@fnal.gov
+License: LICENSE.txt
+Description:
+        ===========
+        UpdateInfo
+        ===========
+        
+        UpdateInfo provides useful objects for creating the updateinfo.xml
+        for use with yum
+        
+        This isn't really fancy, but I've included the xsd this validates against.
+        The xsd should also validate against Fedora or Suse
+        
+Platform: UNKNOWN

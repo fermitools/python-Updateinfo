@@ -1,0 +1,141 @@
+== About ==
+
+This package contains a few useful tools for helping understand how to create
+the updateinfo.xml.  You can review 'example.py' or 'helper_example.py' for
+the expected method of interaction.
+
+You can review the updateinfo.xsd for how exactly this package understands the
+structure of the updateinfo.xml file.
+
+But what about using this object to read in an updateinfo.xml and extract data
+from there?
+
+Well that shouldn't be too bad - for the most part everything responds nicely
+to the for loop.
+
+The helpers directory contains a handful of hopefully useful functions.
+
+== Quick Start ==
+
+The fastest way to start making an updateinfo xml looks like this:
+
+[source,python]
+----
+from updateinfo import Updateinfo
+
+# Make master object
+MYUPDATEINFO = Updateinfo()
+
+# Create an Update Entry
+MYUPDATEINFO.create(updateid, updatefrom, status, updatetype, title,
+                    issued_date, description, severity, releasetitle,
+                    summary, rights, solution, update_date, reboot_suggested,
+                    restart_suggested, relogin_suggested)
+
+# Create a Collection to contain packages
+MYUPDATEINFO[updateid].collections.create(release_name, short_name)
+
+# Add packages to the collection
+MYUPDATEINFO[updateid].collections[short_name].add_filename('packagename')
+
+# Add packages to the collection and read in its contents
+MYUPDATEINFO[updateid].collections[short_name].add_filename('/path/to/file', readfile=True)
+
+# Add a Reference to the Update Entry
+MYUPDATEINFO[updateid].references.create(reftype, href, refid, title)
+
+# Get the Updateinfo as xml
+print(MYUPDATEINFO.xml)
+
+# Set the whole object from xml
+MYUPDATEINFO.xml = xmlstring
+
+# Get the Updateinfo as an ElementTree
+print(MYUPDATEINFO.xmletree)
+
+# Set the whole object from an ElementTree
+MYUPDATEINFO.xmletree = myxmletree
+
+# Get the Updateinfo as yaml
+print(MYUPDATEINFO.yaml)
+
+# Set the whole object from yaml
+MYUPDATEINFO.yaml = yamlstring
+
+# Get the Updateinfo as json
+print(MYUPDATEINFO.json)
+
+# Set the whole object from json
+MYUPDATEINFO.json = jsonstring
+----
+
+I would suggest reading in some of the sample files and seeing how you
+can manipulate them.
+
+== Usage Info ==
+
+It would be a wasted effort to document every avalible information piece of
+these objects, so I will direct you to the documentation of each object.
+
+Techniques of data access for updateinfo objects:
+
+Each Updateinfo object can be itterated through like a list for getting to
+each entry within the object.
+
+[source,python]
+----
+    for update in updateinfo:
+        print(updateinfo[update])
+        print(updateinfo[update].xml)
+        print(updateinfo[update].yaml)
+        print(updateinfo[update].json)
+----
+
+Each Update Entry object has a collection store you can look in:
+
+[source,python]
+----
+    for update in updateinfo:
+        for collection in update.collections:
+            print(update.collections[collection])
+            print(update.collections[collection].xml)
+            print(update.collections[collection].yaml)
+            print(update.collections[collection].json)
+----
+
+Each Collection object can be itterated through like a list for getting to each
+package within the object.
+
+[source,python]
+----
+    for update in updateinfo:
+        for collection in update.collections:
+            for package in collection:
+                print(collection[package])
+                print(collection[package].xml)
+                print(collection[package].yaml)
+                print(collection[package].json)
+----
+
+Each Update Entry object has a reference store you can look in:
+
+[source,python]
+----
+    for update in updateinfo:
+        for reference in update.references:
+            print(update.references[reference])
+            print(update.references[reference].xml)
+            print(update.references[reference].yaml)
+            print(update.references[reference].json)
+----
+
+Each object has its 'help' information filled out in detail.  Please review
+that documentation as it will help clarify how things fit together.
+
+== References ==
+
+https://github.com/fedora-infra/bodhi/blob/develop/bodhi/server/metadata.py#L205
+https://github.com/rpm-software-management/hawkey/blob/master/src/sack.c#L1048
+
+
+// vim: set syntax=asciidoc:

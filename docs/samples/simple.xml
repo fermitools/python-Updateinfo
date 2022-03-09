@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- 
+modifyrepo updateinfo.xml /path/to/repodata/
+-->
+<?xml-stylesheet type="text/xsl" href="updateinfo.xsl"?>
+<updates>
+  <update status='stable' from='asdf@jkl.com' version='1.4' type='enhancement'>
+    <id>SLID-11111</id>
+    <title>sample update</title>
+    <description>look it fixes" stuff and I've described it.
+Oh, a second line, how interesting!
+    What's that, I can put loads and loads of text here with odd indentation?
+In that case, to make this super long, here is a sha1sum of /dev/null da39a3ee5e6b4b0d3255bfef95601890afd80709
+
+    Oh, I should support unicode too: ⚑ ⌦ ⌘
+
+    </description>
+    <release>Scientific Linux</release>
+    <issued date='2012-08-25 16:03:34'/>
+    <reboot_suggested>true</reboot_suggested>
+    <restart_suggested>true</restart_suggested>
+    <relogin_suggested>true</relogin_suggested>
+    <references>
+      <reference href='http://mybugzillaurl.com/bug#1234' type='bugzilla' id='1234' title='mytitle'/>
+    </references>
+    <pkglist>
+      <collection short='SL-6'>
+        <name>Scientific Linux 6</name>
+        <package src='http://url.for.source.com/python-Updateinfo-0.1.5-2.1.sl6.src.rpm' name='python-Updateinfo' epoch='0' version='0.1.5' release='2.1.sl6' arch='noarch'>
+          <filename>python-Updateinfo-0.1.5-2.1.sl6.noarch.rpm</filename>
+          <sum type='sha256'>a809522021ed34dc42a0574ae615820dc75e4c6edaba4508cbed815e006266c9</sum>
+        </package>
+      </collection>
+    </pkglist>
+  </update>
+  <update status='stable' from='asdf@jkl.com' version='1.4' type='newpackage'>
+    <id>SLID-2345-001</id>
+    <title>sample update</title>
+    <description>look it is new</description>
+    <release>Scientific Linux</release>
+    <issued date='1970-01-01 16:03:34'/>
+    <reboot_suggested>true</reboot_suggested>
+    <restart_suggested>true</restart_suggested>
+    <relogin_suggested>true</relogin_suggested>
+    <references>
+      <reference href='http://mybugzillaurl.com/bug#1234' type='bugzilla' id='1234' title='mytitle'/>
+    </references>
+    <pkglist>
+      <collection short='SL-6'>
+        <name>Scientific Linux 6</name>
+        <package src='http://url.for.source.com/python-Updateinfo-0.1.5-0.sl6.src.rpm' name='python-Updateinfo' epoch='0' version='0.1.5' release='0.sl6' arch='noarch'>
+          <filename>python-Updateinfo-0.1.5-0.sl6.noarch.rpm</filename>
+          <sum type='sha256'>a809522021ed34dc42a0574ae615820dc75e4c6edaba4508cbed815e006266c9</sum>
+        </package>
+      </collection>
+    </pkglist>
+  </update>
+</updates>

@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<updates>
+  <update from="updates@fedoraproject.org" status="stable" type="enhancement" version="2.0">
+    <id>FEDORA-MODULAR-2018-a38702d4fe</id>
+    <title>ant-1.10-20181122140939.819b5873</title>
+    <issued date="2018-12-04 01:56:32"/>
+    <updated date="2019-03-15 05:33:54"/>
+    <rights>Copyright (C) 2019 Red Hat, Inc. and others.</rights>
+    <release>Fedora 29 Modular</release>
+    <severity>None</severity>
+    <summary>ant-1.10-20181122140939.819b5873 enhancement update</summary>
+    <description>Introduces all subpackages of ant as part of module API.
+
+----
+
+Rebase to upstream version 1.10.5</description>
+    <references>
+      <reference href="https://bugzilla.redhat.com/show_bug.cgi?id=1631451" id="1631451" type="bugzilla" title="ant module breaks eclipse"/>
+    </references>
+    <pkglist>
+      <collection short="F29M">
+        <name>Fedora 29 Modular</name>
+      </collection>
+    </pkglist>
+  </update>
+  <update from="updates@fedoraproject.org" status="stable" type="enhancement" version="2.0">
+    <id>FEDORA-MODULAR-2019-003c4cdde6</id>
+    <title>reviewboard-3.0-2920190225202125.083bce86</title>
+    <issued date="2019-03-08 21:50:38"/>
+    <updated date="2019-03-15 05:33:54"/>
+    <rights>Copyright (C) 2019 Red Hat, Inc. and others.</rights>
+    <release>Fedora 29 Modular</release>
+    <severity>Low</severity>
+    <summary>reviewboard-3.0-2920190225202125.083bce86 enhancement update</summary>
+    <description>Update to Review Board 3.0.13</description>
+    <references/>
+    <pkglist>
+      <collection short="F29M">
+        <name>Fedora 29 Modular</name>
+      </collection>
+    </pkglist>
+  </update>
+  <update from="updates@fedoraproject.org" status="testing" type="enhancement" version="2.0">
+    <id>FEDORA-MODULAR-2019-3fd9b01df1</id>
+    <title>rpick-latest-2920190313083345.6c81f848</title>
+    <issued date="2019-03-15 05:33:54"/>
+    <updated date="2019-03-13 14:00:59"/>
+    <rights>Copyright (C) 2019 Red Hat, Inc. and others.</rights>
+    <release>Fedora 29 Modular</release>
+    <severity>None</severity>
+    <summary>rpick-latest-2920190313083345.6c81f848 enhancement update</summary>
+    <description>Update rpick to 0.2.0
+</description>
+    <references>
+      <reference href="https://bugzilla.redhat.com/show_bug.cgi?id=1688046" id="1688046" type="bugzilla" title="rust-rpick-0.2.0 is available"/>
+    </references>
+    <pkglist>
+      <collection short="F29M">
+        <name>Fedora 29 Modular</name>
+      </collection>
+    </pkglist>
+  </update>
+  <update from="updates@fedoraproject.org" status="stable" type="bugfix" version="2.0">
+    <id>FEDORA-MODULAR-2019-79fa343893</id>
+    <title>postgresql-11-2920190221123957.6c81f848</title>
+    <issued date="2019-03-07 21:43:18"/>
+    <updated date="2019-03-15 05:33:55"/>
+    <rights>Copyright (C) 2019 Red Hat, Inc. and others.</rights>
+    <release>Fedora 29 Modular</release>
+    <severity>None</severity>
+    <summary>postgresql-11-2920190221123957.6c81f848 bugfix update</summary>
+    <description>New minor version of PostgreSQL server v11.2, and new version of postgresql-pgpool-II v4.0.3.</description>
+    <references/>
+    <pkglist>
+      <collection short="F29M">
+        <name>Fedora 29 Modular</name>
+      </collection>
+    </pkglist>
+  </update>
+  <update from="updates@fedoraproject.org" status="stable" type="bugfix" version="2.0">
+    <id>FEDORA-MODULAR-2019-65238d7e69</id>
+    <title>meson-latest-2920190123223713.06d0a27d</title>
+    <issued date="2019-02-12 03:27:32"/>
+    <updated date="2019-03-15 05:33:55"/>
+    <rights>Copyright (C) 2019 Red Hat, Inc. and others.</rights>
+    <release>Fedora 29 Modular</release>
+    <severity>None</severity>
+    <summary>meson-latest-2920190123223713.06d0a27d bugfix update</summary>
+    <description>Update to 0.49.1
+
+----
+
+Update to 0.49.2</description>
+    <references>
+      <reference href="https://bugzilla.redhat.com/show_bug.cgi?id=1672387" id="1672387" type="bugzilla" title="meson-0.49.2 is available"/>
+    </references>
+    <pkglist>
+      <collection short="F29M">
+        <name>Fedora 29 Modular</name>
+      </collection>
+    </pkglist>
+  </update>
+  <update from="updates@fedoraproject.org" status="stable" type="enhancement" version="2.0">
+    <id>FEDORA-MODULAR-2018-0cd1700088</id>
+    <title>ghc-8.6-20181208145539.6c81f848</title>
+    <issued date="2018-12-27 02:00:52"/>
+    <updated date="2019-03-15 05:33:55"/>
+    <rights>Copyright (C) 2019 Red Hat, Inc. and others.</rights>
+    <release>Fedora 29 Modular</release>
+    <severity>None</severity>
+    <summary>ghc-8.6-20181208145539.6c81f848 enhancement update</summary>
+    <description>Update ghc:8.6 module stream to ghc-8.6.3
+
+- https://downloads.haskell.org/~ghc/8.6.3/docs/html/users_guide/8.6.3-notes.html</description>
+    <references/>
+    <pkglist>
+      <collection short="F29M">
+        <name>Fedora 29 Modular</name>
+      </collection>
+    </pkglist>
+  </update>
+  <update from="updates@fedoraproject.org" status="pending" type="newpackage" version="2.0">
+    <id>FEDORA-MODULAR-2019-02252b6669</id>
+    <title>ffsend-latest-2920190314094226.6c81f848</title>
+    <issued date="2019-03-15 05:33:55"/>
+    <updated date="2019-03-15 05:33:55"/>
+    <rights>Copyright (C) 2019 Red Hat, Inc. and others.</rights>
+    <release>Fedora 29 Modular</release>
+    <severity>None</severity>
+    <summary>ffsend-latest-2920190314094226.6c81f848 newpackage update</summary>
+    <description>[ffsend](https://github.com/timvisee/ffsend) — Easily and securely share files from the command line. A fully featured Firefox Send client.</description>
+    <references/>
+    <pkglist>
+      <collection short="F29M">
+        <name>Fedora 29 Modular</name>
+      </collection>
+    </pkglist>
+  </update>
+  <update from="updates@fedoraproject.org" status="stable" type="newpackage" version="2.0">
+    <id>FEDORA-MODULAR-2018-4184b3e695</id>
+    <title>octave-4.4-20181215220609.6c81f848</title>
+    <issued date="2018-12-27 02:00:52"/>
+    <updated date="2019-03-15 05:33:55"/>
+    <rights>Copyright (C) 2019 Red Hat, Inc. and others.</rights>
+    <release>Fedora 29 Modular</release>
+    <severity>None</severity>
+    <summary>octave-4.4-20181215220609.6c81f848 newpackage update</summary>
+    <description>Octave 4.4 module
+
+----
+
+Octave 4.4 module</description>
+    <references>
+      <reference href="https://bugzilla.redhat.com/show_bug.cgi?id=1574112" id="1574112" type="bugzilla" title="octave-4.4.1 is available"/>
+    </references>
+    <pkglist>
+      <collection short="F29M">
+        <name>Fedora 29 Modular</name>
+      </collection>
+    </pkglist>
+  </update>
+  <update from="updates@fedoraproject.org" status="stable" type="enhancement" version="2.0">
+    <id>FEDORA-MODULAR-2019-f276ce94fd</id>
+    <title>standard-test-roles-3.0-2920190114142648.6c81f848</title>
+    <issued date="2019-02-02 03:30:13"/>
+    <updated date="2019-03-15 05:33:56"/>
+    <rights>Copyright (C) 2019 Red Hat, Inc. and others.</rights>
+    <release>Fedora 29 Modular</release>
+    <severity>None</severity>
+    <summary>standard-test-roles-3.0-2920190114142648.6c81f848 enhancement update</summary>
+    <description>Update to 3.0</description>
+    <references/>
+    <pkglist>
+      <collection short="F29M">
+        <name>Fedora 29 Modular</name>
+      </collection>
+    </pkglist>
+  </update>
+  <update from="updates@fedoraproject.org" status="stable" type="enhancement" version="2.0">
+    <id>FEDORA-MODULAR-2018-6ae3fa005b</id>
+    <title>skychart-devel-20181103131755.6c81f848</title>
+    <issued date="2018-11-24 03:31:05"/>
+    <updated date="2019-03-15 05:33:56"/>
+    <rights>Copyright (C) 2019 Red Hat, Inc. and others.</rights>
+    <release>Fedora 29 Modular</release>
+    <severity>None</severity>
+    <summary>skychart-devel-20181103131755.6c81f848 enhancement update</summary>
+    <description>First devel module release</description>
+    <references/>
+    <pkglist>
+      <collection short="F29M">
+        <name>Fedora 29 Modular</name>
+      </collection>
+    </pkglist>
+  </update>
+  <update from="updates@fedoraproject.org" status="stable" type="enhancement" version="2.0">
+    <id>FEDORA-MODULAR-2018-173b734ee8</id>
+    <title>byteman-byteman-20181123145910.6c81f848</title>
+    <issued date="2018-12-06 03:36:13"/>
+    <updated date="2019-03-15 05:33:56"/>
+    <rights>Copyright (C) 2019 Red Hat, Inc. and others.</rights>
+    <release>Fedora 29 Modular</release>
+    <severity>None</severity>
+    <summary>byteman-byteman-20181123145910.6c81f848 enhancement update</summary>
+    <description>Byteman upstream 4.0.5 release.</description>
+    <references/>
+    <pkglist>
+      <collection short="F29M">
+        <name>Fedora 29 Modular</name>
+      </collection>
+    </pkglist>
+  </update>
+  <update from="updates@fedoraproject.org" status="stable" type="bugfix" version="2.0">
+    <id>FEDORA-MODULAR-2019-a5a1f8f297</id>
+    <title>gimp-2.10-20181223154246.6c81f848</title>
+    <issued date="2019-01-12 03:36:43"/>
+    <updated date="2019-03-15 05:33:56"/>
+    <rights>Copyright (C) 2019 Red Hat, Inc. and others.</rights>
+    <release>Fedora 29 Modular</release>
+    <severity>Moderate</severity>
+    <summary>gimp-2.10-20181223154246.6c81f848 bugfix update</summary>
+    <description>This version includes fixes for byte-compiled Python files.</description>
+    <references/>
+    <pkglist>
+      <collection short="F29M">
+        <name>Fedora 29 Modular</name>
+      </collection>
+    </pkglist>
+  </update>
+  <update from="updates@fedoraproject.org" status="stable" type="bugfix" version="2.0">
+    <id>FEDORA-MODULAR-2019-f1423af705</id>
+    <title>stratis-1-2920190306064421.6c81f848</title>
+    <issued date="2019-03-11 21:26:46"/>
+    <updated date="2019-03-15 05:33:56"/>
+    <rights>Copyright (C) 2019 Red Hat, Inc. and others.</rights>
+    <release>Fedora 29 Modular</release>
+    <severity>None</severity>
+    <summary>stratis-1-2920190306064421.6c81f848 bugfix update</summary>
+    <description>Update stratisd to 1.0.3</description>
+    <references/>
+    <pkglist>
+      <collection short="F29M">
+        <name>Fedora 29 Modular</name>
+      </collection>
+    </pkglist>
+  </update>
+  <update from="updates@fedoraproject.org" status="stable" type="enhancement" version="2.0">
+    <id>FEDORA-MODULAR-2019-e63f5589e7</id>
+    <title>avocado-latest-2920190228041301.6c81f848</title>
+    <issued date="2019-03-11 21:26:46"/>
+    <updated date="2019-03-15 05:33:57"/>
+    <rights>Copyright (C) 2019 Red Hat, Inc. and others.</rights>
+    <release>Fedora 29 Modular</release>
+    <severity>Low</severity>
+    <summary>avocado-latest-2920190228041301.6c81f848 enhancement update</summary>
+    <description>Modular release of avocado 69.0
+
+----
+
+Modular release of avocado 68.0</description>
+    <references/>
+    <pkglist>
+      <collection short="F29M">
+        <name>Fedora 29 Modular</name>
+      </collection>
+    </pkglist>
+  </update>
+  <update from="updates@fedoraproject.org" status="stable" type="enhancement" version="2.0">
+    <id>FEDORA-MODULAR-2019-04defb7fc1</id>
+    <title>nodejs-10-20190102201818.6c81f848</title>
+    <issued date="2019-01-24 03:13:37"/>
+    <updated date="2019-03-15 05:33:57"/>
+    <rights>Copyright (C) 2019 Red Hat, Inc. and others.</rights>
+    <release>Fedora 29 Modular</release>
+    <severity>Moderate</severity>
+    <summary>nodejs-10-20190102201818.6c81f848 enhancement update</summary>
+    <description>Update Node.js to 10.15.0
+
+https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V10.md#10.15.0</description>
+    <references/>
+    <pkglist>
+      <collection short="F29M">
+        <name>Fedora 29 Modular</name>
+      </collection>
+    </pkglist>
+  </update>
+  <update from="updates@fedoraproject.org" status="stable" type="enhancement" version="2.0">
+    <id>FEDORA-MODULAR-2019-fa278f7aef</id>
+    <title>exa-latest-2920190306064823.7fdbb362</title>
+    <issued date="2019-03-11 21:26:46"/>
+    <updated date="2019-03-15 05:33:57"/>
+    <rights>Copyright (C) 2019 Red Hat, Inc. and others.</rights>
+    <release>Fedora 29 Modular</release>
+    <severity>None</severity>
+    <summary>exa-latest-2920190306064823.7fdbb362 enhancement update</summary>
+    <description>Rebuild exa with latest dependencies</description>
+    <references/>
+    <pkglist>
+      <collection short="F29M">
+        <name>Fedora 29 Modular</name>
+      </collection>
+    </pkglist>
+  </update>
+  <update from="updates@fedoraproject.org" status="stable" type="newpackage" version="2.0">
+    <id>FEDORA-MODULAR-2019-e302130bf7</id>
+    <title>openmpi-4.0-2920190221024410.6c81f848</title>
+    <issued date="2019-03-04 01:14:48"/>
+    <updated date="2019-03-15 05:33:57"/>
+    <rights>Copyright (C) 2019 Red Hat, Inc. and others.</rights>
+    <release>Fedora 29 Modular</release>
+    <severity>None</severity>
+    <summary>openmpi-4.0-2920190221024410.6c81f848 newpackage update</summary>
+    <description>Modular 4.0</description>
+    <references/>
+    <pkglist>
+      <collection short="F29M">
+        <name>Fedora 29 Modular</name>
+      </collection>
+    </pkglist>
+  </update>
+  <update from="updates@fedoraproject.org" status="stable" type="enhancement" version="2.0">
+    <id>FEDORA-MODULAR-2019-73638fcf00</id>
+    <title>bat-latest-2920190307100850.7fdbb362</title>
+    <issued date="2019-03-11 21:26:46"/>
+    <updated date="2019-03-15 05:33:57"/>
+    <rights>Copyright (C) 2019 Red Hat, Inc. and others.</rights>
+    <release>Fedora 29 Modular</release>
+    <severity>None</severity>
+    <summary>bat-latest-2920190307100850.7fdbb362 enhancement update</summary>
+    <description>Rebuild with latest dependencies</description>
+    <references/>
+    <pkglist>
+      <collection short="F29M">
+        <name>Fedora 29 Modular</name>
+      </collection>
+    </pkglist>
+  </update>
+  <update from="updates@fedoraproject.org" status="stable" type="bugfix" version="2.0">
+    <id>FEDORA-MODULAR-2019-5c6802a3c7</id>
+    <title>fish-3-2920190219150858.139e1eeb</title>
+    <issued date="2019-02-28 21:23:47"/>
+    <updated date="2019-03-15 05:33:57"/>
+    <rights>Copyright (C) 2019 Red Hat, Inc. and others.</rights>
+    <release>Fedora 29 Modular</release>
+    <severity>None</severity>
+    <summary>fish-3-2920190219150858.139e1eeb bugfix update</summary>
+    <description>Update to 3.0.2</description>
+    <references/>
+    <pkglist>
+      <collection short="F29M">
+        <name>Fedora 29 Modular</name>
+      </collection>
+    </pkglist>
+  </update>
+  <update from="updates@fedoraproject.org" status="stable" type="enhancement" version="2.0">
+    <id>FEDORA-MODULAR-2019-39282cfde4</id>
+    <title>ninja-latest-2920190131012415.6c81f848</title>
+    <issued date="2019-02-12 03:27:32"/>
+    <updated date="2019-03-15 05:33:57"/>
+    <rights>Copyright (C) 2019 Red Hat, Inc. and others.</rights>
+    <release>Fedora 29 Modular</release>
+    <severity>None</severity>
+    <summary>ninja-latest-2920190131012415.6c81f848 enhancement update</summary>
+    <description>Update to 1.9.0</description>
+    <references>
+      <reference href="https://bugzilla.redhat.com/show_bug.cgi?id=1671118" id="1671118" type="bugzilla" title="ninja-build-1.9.0 is available"/>
+    </references>
+    <pkglist>
+      <collection short="F29M">
+        <name>Fedora 29 Modular</name>
+      </collection>
+    </pkglist>
+  </update>
+  <update from="updates@fedoraproject.org" status="stable" type="bugfix" version="2.0">
+    <id>FEDORA-MODULAR-2019-d58dac9e71</id>
+    <title>jmc-latest-2920190123140252.6c81f848</title>
+    <issued date="2019-02-07 22:13:22"/>
+    <updated date="2019-01-28 18:48:14"/>
+    <rights>Copyright (C) 2019 Red Hat, Inc. and others.</rights>
+    <release>Fedora 29 Modular</release>
+    <severity>Low</severity>
+    <summary>jmc-latest-2920190123140252.6c81f848 bugfix update</summary>
+    <description>This update fixes symlinking issues to Eclipse libraries when Eclipse packages are updated and JMC has not been rebuilt, updates the name to JDK Mission Control and Flight Recorder and removes unnecessary BuildRequires.
+</description>
+    <references/>
+    <pkglist>
+      <collection short="F29M">
+        <name>Fedora 29 Modular</name>
+      </collection>
+    </pkglist>
+  </update>
+  <update from="updates@fedoraproject.org" status="stable" type="security" version="2.0">
+    <id>FEDORA-MODULAR-2018-82af46f17a</id>
+    <title>perl-5.26-20181205105946.b88aa309</title>
+    <issued date="2018-12-15 03:18:31"/>
+    <updated date="2019-03-15 05:33:58"/>
+    <rights>Copyright (C) 2019 Red Hat, Inc. and others.</rights>
+    <release>Fedora 29 Modular</release>
+    <severity>Important</severity>
+    <summary>perl-5.26-20181205105946.b88aa309 security update</summary>
+    <description>This release fixes four security bugs in the perl interpreter (CVE-2018-18311, CVE-2018-18312, CVE-2018-18313, CVE-2018-18314).</description>
+    <references>
+      <reference href="https://bugzilla.redhat.com/show_bug.cgi?id=1646730" id="1646730" type="bugzilla" title="CVE-2018-18311 perl: Integer overflow leading to buffer overflow"/>
+      <reference href="https://bugzilla.redhat.com/show_bug.cgi?id=1654918" id="1654918" type="bugzilla" title="CVE-2018-18311 perl: Integer overflow leading to buffer overflow [fedora-all]"/>
+      <reference href="https://bugzilla.redhat.com/show_bug.cgi?id=1646734" id="1646734" type="bugzilla" title="CVE-2018-18312 perl: Heap-buffer-overflow write / reg_node overrun"/>
+      <reference href="https://bugzilla.redhat.com/show_bug.cgi?id=1654919" id="1654919" type="bugzilla" title="CVE-2018-18312 perl: Heap-buffer-overflow write / reg_node overrun [fedora-all]"/>
+      <reference href="https://bugzilla.redhat.com/show_bug.cgi?id=1646738" id="1646738" type="bugzilla" title="CVE-2018-18313 perl: Heap-buffer-overflow read in regcomp.c"/>
+      <reference href="https://bugzilla.redhat.com/show_bug.cgi?id=1654921" id="1654921" type="bugzilla" title="CVE-2018-18313 perl: Heap-buffer-overflow read in regcomp.c [fedora-all]"/>
+      <reference href="https://bugzilla.redhat.com/show_bug.cgi?id=1646751" id="1646751" type="bugzilla" title="CVE-2018-18314 perl: Heap-based buffer overflow"/>
+      <reference href="https://bugzilla.redhat.com/show_bug.cgi?id=1654923" id="1654923" type="bugzilla" title="CVE-2018-18314 perl: Heap-based buffer overflow [fedora-all]"/>
+    </references>
+    <pkglist>
+      <collection short="F29M">
+        <name>Fedora 29 Modular</name>
+      </collection>
+    </pkglist>
+  </update>
+  <update from="updates@fedoraproject.org" status="stable" type="bugfix" version="2.0">
+    <id>FEDORA-MODULAR-2019-e2281b8a2a</id>
+    <title>libgit2-0.28-2920190304210604.6c81f848</title>
+    <issued date="2019-03-11 21:26:46"/>
+    <updated date="2019-03-15 05:33:58"/>
+    <rights>Copyright (C) 2019 Red Hat, Inc. and others.</rights>
+    <release>Fedora 29 Modular</release>
+    <severity>None</severity>
+    <summary>libgit2-0.28-2920190304210604.6c81f848 bugfix update</summary>
+    <description>Update to 0.28.1</description>
+    <references/>
+    <pkglist>
+      <collection short="F29M">
+        <name>Fedora 29 Modular</name>
+      </collection>
+    </pkglist>
+  </update>
+  <update from="updates@fedoraproject.org" status="stable" type="enhancement" version="2.0">
+    <id>FEDORA-MODULAR-2019-5934cd8569</id>
+    <title>cri-o-1.13-2920190221162713.6c81f848</title>
+    <issued date="2019-03-07 21:43:18"/>
+    <updated date="2019-03-15 05:33:58"/>
+    <rights>Copyright (C) 2019 Red Hat, Inc. and others.</rights>
+    <release>Fedora 29 Modular</release>
+    <severity>None</severity>
+    <summary>cri-o-1.13-2920190221162713.6c81f848 enhancement update</summary>
+    <description>cri-o 1.13.0
+cri-tools 1.13.0</description>
+    <references/>
+    <pkglist>
+      <collection short="F29M">
+        <name>Fedora 29 Modular</name>
+      </collection>
+    </pkglist>
+  </update>
+  <update from="updates@fedoraproject.org" status="stable" type="enhancement" version="2.0">
+    <id>FEDORA-MODULAR-2019-fddd97dd52</id>
+    <title>mariadb-10.4-2920190106153700.6c81f848</title>
+    <issued date="2019-03-01 02:57:23"/>
+    <updated date="2019-03-15 05:33:58"/>
+    <rights>Copyright (C) 2019 Red Hat, Inc. and others.</rights>
+    <release>Fedora 29 Modular</release>
+    <severity>None</severity>
+    <summary>mariadb-10.4-2920190106153700.6c81f848 enhancement update</summary>
+    <description>** MariaDB 10.4.2 BETA **
+
+Release notes:
+
+    https://mariadb.com/kb/en/mariadb-1042-release-notes/
+
+Maintainer notes:
+
+    Do not use BETA release on production systems !!</description>
+    <references/>
+    <pkglist>
+      <collection short="F29M">
+        <name>Fedora 29 Modular</name>
+      </collection>
+    </pkglist>
+  </update>
+  <update from="updates@fedoraproject.org" status="stable" type="newpackage" version="2.0">
+    <id>FEDORA-MODULAR-2019-a5a226c810</id>
+    <title>newsboat-latest-2920190307162417.6c81f848</title>
+    <issued date="2019-03-11 21:26:46"/>
+    <updated date="2019-03-15 05:33:59"/>
+    <rights>Copyright (C) 2019 Red Hat, Inc. and others.</rights>
+    <release>Fedora 29 Modular</release>
+    <severity>None</severity>
+    <summary>newsboat-latest-2920190307162417.6c81f848 newpackage update</summary>
+    <description>New module with latest newsboat version</description>
+    <references/>
+    <pkglist>
+      <collection short="F29M">
+        <name>Fedora 29 Modular</name>
+      </collection>
+    </pkglist>
+  </update>
+  <update from="updates@fedoraproject.org" status="stable" type="bugfix" version="2.0">
+    <id>FEDORA-MODULAR-2019-977165e277</id>
+    <title>dwm-6.2-2920190206214000.6c81f848</title>
+    <issued date="2019-02-27 02:13:18"/>
+    <updated date="2019-03-15 05:33:59"/>
+    <rights>Copyright (C) 2019 Red Hat, Inc. and others.</rights>
+    <release>Fedora 29 Modular</release>
+    <severity>Moderate</severity>
+    <summary>dwm-6.2-2920190206214000.6c81f848 bugfix update</summary>
+    <description>dwm-6.2 built with the correct distribution LDFLAGS.
+
+----
+
+dwm-6.2 is now available for Fedora. This update introduces a new stream of the dwm module.</description>
+    <references/>
+    <pkglist>
+      <collection short="F29M">
+        <name>Fedora 29 Modular</name>
+      </collection>
+    </pkglist>
+  </update>
+  <update from="updates@fedoraproject.org" status="stable" type="enhancement" version="2.0">
+    <id>FEDORA-MODULAR-2019-c93429ac94</id>
+    <title>ripgrep-latest-2920190306064851.6c81f848</title>
+    <issued date="2019-03-11 21:26:46"/>
+    <updated date="2019-03-15 05:33:59"/>
+    <rights>Copyright (C) 2019 Red Hat, Inc. and others.</rights>
+    <release>Fedora 29 Modular</release>
+    <severity>None</severity>
+    <summary>ripgrep-latest-2920190306064851.6c81f848 enhancement update</summary>
+    <description>Rebuild ripgrep with latest compiler and dependencies</description>
+    <references/>
+    <pkglist>
+      <collection short="F29M">
+        <name>Fedora 29 Modular</name>
+      </collection>
+    </pkglist>
+  </update>
+</updates>
