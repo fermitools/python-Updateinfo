@@ -1893,7 +1893,7 @@ class UpdateModelTests(unittest.TestCase):
         testentry.updatefrom = 'me@example.com'
         testentry.updatetype = 'security'
         testentry.updateid = '1'
-        testentry.issued_date = datetime.date(1970, 02, 03)
+        testentry.issued_date = datetime.date(1970, 2, 3)
         testentry.collections.add(self.coll_one_for_test())
 
         result = False
