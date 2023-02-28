@@ -1,4 +1,5 @@
 import os
+import setuptools
 from distutils.core import setup
 
 here = os.path.abspath(os.path.dirname(__file__))
@@ -22,6 +23,7 @@ setup(
     requires=[
         'PyYAML',
         'json',
+        'wheel',
     ],
     classifiers=[
         'Programming Language :: Python',
